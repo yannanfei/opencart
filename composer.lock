@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "27e50c76f2e81a9db560bcede406fcf7",
+    "packages": [
+        {
+            "name": "braintree/braintree_php",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/braintree/braintree_php.git",
+                "reference": "c7e0e2d1ae21d659cddb5507fb0bf181813b5733"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/braintree/braintree_php/zipball/c7e0e2d1ae21d659cddb5507fb0bf181813b5733",
+                "reference": "c7e0e2d1ae21d659cddb5507fb0bf181813b5733",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-hash": "*",
+                "ext-openssl": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Braintree": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Braintree",
+                    "homepage": "http://www.braintreepayments.com"
+                }
+            ],
+            "description": "Braintree PHP Client Library",
+            "time": "2015-07-15 15:07:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
